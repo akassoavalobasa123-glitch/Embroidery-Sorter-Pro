@@ -7,8 +7,7 @@ from PySide6.QtWidgets import (QApplication,QMainWindow,QWidget,QVBoxLayout,QHBo
 APP_NAME='Embroidery Sorter Pro'
 APP_VERSION='2.4.0'
 GITHUB_REPO='akassoavalobasa123-glitch/Embroidery-Sorter-Pro'
-GITHUB_LATEST_API=f'https://api.github.com/repos/{GITHUB_REPO}/releases/latest'
-DEFAULT_PROTECTED=['.png','.emf','.pdf','.txt']
+GITHUB_LATEST_API='https://api.github.com/repos/akassoavalobasa123-glitch/Embroidery-Sorter-Pro/releases/latest'DEFAULT_PROTECTED=['.png','.emf','.pdf','.txt']
 ACTIONS=['Move to matching folder','Keep','Safe Trash (undoable)','Recycle Bin','Ignore','Auto']
 
 def now(): return datetime.datetime.now().isoformat(timespec='seconds')
