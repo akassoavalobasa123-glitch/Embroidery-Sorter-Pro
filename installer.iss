@@ -1,5 +1,5 @@
 #define MyAppName "Embroidery Sorter Pro"
-#define MyAppVersion "2.3.0"
+#define MyAppVersion "2.4.0"
 #define MyAppPublisher "Chomon Tools"
 #define MyAppExeName "Embroidery Sorter Pro.exe"
 [Setup]
